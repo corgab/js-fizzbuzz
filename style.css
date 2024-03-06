@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: deepskyblue;
+}
+
+.titolo {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+    margin: 15px 4px ;
+    width: calc(1 * 100% / 11);
+    
+}
+
+.d-flex {
+    display: flex;
+}
